@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches|Oswald|Montserrat&display=swap');
 
 body {
-    background: url('./nycrp-background.png');
+    background: url('./img/nycrp-background.png');
     background-size: cover;
     background-position: center;
     margin: 0;
