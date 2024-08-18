@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 16px; /* Default font size */
+    font-size: 19px; /* Default font size */
     white-space: nowrap; /* Prevent line breaks */
     overflow: hidden; /* Hide overflow */
 }
@@ -149,17 +149,17 @@ body::before {
 }
 
 .faq-section h2 {
-    font-size: 14px; /* Smaller section header size */
+    font-size: 17px; /* Smaller section header size */
     margin-bottom: 5px;
 }
 
 .faq-section h3 {
-    font-size: 16px; /* Smaller question header size */
+    font-size: 19px; /* Smaller question header size */
     margin-bottom: 3px;
 }
 
 .faq-section p, .faq-section p.inline {
-    font-size: 10px; /* Smaller paragraph size */
+    font-size: 14px; /* Smaller paragraph size */
     display: inline; /* Inline display */
     margin-right: 10px; /* Small spacing */
 }
