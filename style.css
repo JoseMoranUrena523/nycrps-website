@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 19px; /* Default font size */
+    font-size: 18px; /* Increased font size */
     white-space: nowrap; /* Prevent line breaks */
     overflow: hidden; /* Hide overflow */
 }
@@ -32,7 +32,7 @@ body::before {
 
 .logo {
     position: absolute;
-    width: 10vw; /* Adjusted size */
+    width: 12vw; /* Adjusted size */
     height: auto;
     left: 5vw;
     top: 2vw;
@@ -48,13 +48,13 @@ body::before {
     top: 2vw;
     right: 5vw;
     text-align: right;
-    line-height: 1.5vw; /* Adjusted line height */
+    line-height: 2vw; /* Adjusted line height */
     z-index: 1;
 }
 
 .menuitem {
     display: inline-block;
-    margin: 0 1vw; /* Adjusted margin */
+    margin: 0 1.5vw; /* Adjusted margin */
 }
 
 .menu-link {
@@ -62,11 +62,11 @@ body::before {
     color: #fff;
     font-family: 'Oswald', sans-serif;
     transition: border-bottom 0.3s ease;
-    font-size: 1vw; /* Adjusted font size */
+    font-size: 1.4vw; /* Increased font size */
 }
 
 .menu-link:hover {
-    border-bottom: 1px solid #00a8ff; /* Adjusted border size */
+    border-bottom: 2px solid #00a8ff; /* Adjusted border size */
 }
 
 .maintext {
@@ -77,25 +77,25 @@ body::before {
 .title {
     font-family: 'Staatliches', sans-serif;
     color: #fff;
-    font-size: 3vw; /* Adjusted font size */
+    font-size: 4vw; /* Increased font size */
     letter-spacing: 0.1vw;
-    line-height: 4vw; /* Adjusted line height */
-    margin-bottom: 1vw;
+    line-height: 4.5vw; /* Adjusted line height */
+    margin-bottom: 1.5vw;
 }
 
 .description {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.05vw;
-    line-height: 1.5vw; /* Adjusted line height */
-    font-size: 1.2vw; /* Adjusted font size */
-    margin-bottom: 2vw;
+    line-height: 2vw; /* Adjusted line height */
+    font-size: 1.8vw; /* Increased font size */
+    margin-bottom: 2.5vw;
 }
 
 .button1 {
     display: inline-block;
-    padding: 0.8vw 1.5vw; /* Adjusted padding */
-    font-size: 1vw; /* Adjusted font size */
+    padding: 1vw 2vw; /* Adjusted padding */
+    font-size: 1.4vw; /* Increased font size */
     font-family: 'Staatliches', sans-serif;
     background: #00a8ff;
     text-align: center;
@@ -122,26 +122,26 @@ body::before {
 }
 
 .footer-section {
-    width: 18vw; /* Adjusted width */
-    padding: 1.5vw; /* Adjusted padding */
+    width: 20vw; /* Adjusted width */
+    padding: 2vw; /* Adjusted padding */
     box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.2);
 }
 
 .footer-title {
-    font-size: 1.5vw; /* Adjusted font size */
+    font-size: 2vw; /* Increased font size */
     color: #00a8ff;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 .footer-description {
-    font-size: 0.9vw; /* Adjusted font size */
+    font-size: 1.2vw; /* Increased font size */
     color: #b3b3b3;
     line-height: 1.5vw;
 }
 
 .footer-highlight {
-    font-size: 1.2vw; /* Adjusted font size */
+    font-size: 1.6vw; /* Increased font size */
     color: #00a8ff;
     font-family: 'Staatliches', sans-serif;
     cursor: pointer;
@@ -149,17 +149,17 @@ body::before {
 }
 
 .faq-section h2 {
-    font-size: 17px; /* Smaller section header size */
+    font-size: 18px; /* Increased section header size */
     margin-bottom: 5px;
 }
 
 .faq-section h3 {
-    font-size: 19px; /* Smaller question header size */
+    font-size: 20px; /* Increased question header size */
     margin-bottom: 3px;
 }
 
 .faq-section p, .faq-section p.inline {
-    font-size: 14px; /* Smaller paragraph size */
+    font-size: 14px; /* Increased paragraph size */
     display: inline; /* Inline display */
     margin-right: 10px; /* Small spacing */
 }
