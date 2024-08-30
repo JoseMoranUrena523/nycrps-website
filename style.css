@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches|Oswald|Montserrat&display=swap');
 
 body {
-    background: url('./img/nycrp-background.png');
     background-size: cover;
     background-position: center;
     margin: 0;
     height: 100vh;
-    overflow: hidden; /* Disables scrolling */
+    overflow: hidden;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    display: flex; /* Center content horizontally and vertically */
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 16px; /* Base font size */
-    white-space: normal; /* Allow line breaks */
+    font-size: 16px;
+    white-space: normal;
 }
 
 body::before {
@@ -31,7 +30,7 @@ body::before {
 
 .logo {
     position: absolute;
-    width: 10vw; /* Adjusted size */
+    width: 10vw;
     height: auto;
     left: 5vw;
     top: 2vw;
@@ -52,7 +51,7 @@ body::before {
 
 .menuitem {
     display: inline-block;
-    margin: 0 1.5vw; /* Adjusted margin */
+    margin: 0 1.5vw;
 }
 
 .menu-link {
@@ -60,25 +59,25 @@ body::before {
     color: #fff;
     font-family: 'Oswald', sans-serif;
     transition: border-bottom 0.3s ease;
-    font-size: 1.2vw; /* Balanced font size */
+    font-size: 1.2vw;
 }
 
 .menu-link:hover {
-    border-bottom: 2px solid #00a8ff; /* Adjusted border size */
+    border-bottom: 2px solid #00a8ff;
 }
 
 .maintext {
     z-index: 1;
-    max-width: 80vw; /* Ensures the text doesn't exceed the viewport */
-    overflow-wrap: break-word; /* Breaks long words to avoid overflow */
+    max-width: 80vw;
+    overflow-wrap: break-word;
 }
 
 .title {
     font-family: 'Staatliches', sans-serif;
     color: #fff;
-    font-size: 3.5vw; /* Adjusted font size */
+    font-size: 3.5vw;
     letter-spacing: 0.1vw;
-    line-height: 4vw; /* Adjusted line height */
+    line-height: 4vw;
     margin-bottom: 1.5vw;
 }
 
@@ -86,15 +85,15 @@ body::before {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.05vw;
-    line-height: 1.8vw; /* Adjusted line height */
-    font-size: 1.5vw; /* Adjusted font size */
+    line-height: 1.8vw;
+    font-size: 1.5vw;
     margin-bottom: 2.5vw;
 }
 
 .button1 {
     display: inline-block;
-    padding: 1vw 2vw; /* Adjusted padding */
-    font-size: 1.2vw; /* Adjusted font size */
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
     font-family: 'Staatliches', sans-serif;
     background: #00a8ff;
     text-align: center;
@@ -113,7 +112,7 @@ body::before {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 10vw; /* Adjusted height */
+    height: 10vw;
     display: flex;
     justify-content: space-around;
     background: rgba(0, 0, 0, 0.5);
@@ -121,26 +120,26 @@ body::before {
 }
 
 .footer-section {
-    width: 18vw; /* Adjusted width */
-    padding: 2vw; /* Adjusted padding */
+    width: 18vw;
+    padding: 2vw;
     box-shadow: inset 0 0 2vw rgba(0, 0, 0, 0.2);
 }
 
 .footer-title {
-    font-size: 1.8vw; /* Adjusted font size */
+    font-size: 1.8vw;
     color: #00a8ff;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1.5vw;
 }
 
 .footer-description {
-    font-size: 1vw; /* Adjusted font size */
+    font-size: 1vw;
     color: #b3b3b3;
     line-height: 1.5vw;
 }
 
 .footer-highlight {
-    font-size: 1.4vw; /* Adjusted font size */
+    font-size: 1.4vw;
     color: #00a8ff;
     font-family: 'Staatliches', sans-serif;
     cursor: pointer;
@@ -148,26 +147,26 @@ body::before {
 }
 
 .faq-section h2 {
-    font-size: 16px; /* Increased section header size */
+    font-size: 16px;
     margin-bottom: 5px;
 }
 
 .faq-section h3 {
-    font-size: 18px; /* Increased question header size */
+    font-size: 18px;
     margin-bottom: 3px;
 }
 
 .faq-section p, .faq-section p.inline {
-    font-size: 12px; /* Increased paragraph size */
-    display: inline; /* Inline display */
-    margin-right: 10px; /* Small spacing */
+    font-size: 12px;
+    display: inline;
+    margin-right: 10px;
 }
 
 a {
-    color: #00a8ff; /* Light blue color */
-    text-decoration: none; /* Remove underline from links */
+    color: #00a8ff;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover */
+    text-decoration: underline;
 }
